@@ -13,6 +13,7 @@ public class TiposPrimitivos {
         byte idadeByte = 100;
         char caracter1 = '\u0041';//Unicode table
         char caracter2 = 87;//ASCII table
+        String nome = "João";
 
         System.out.println(idade);
         System.out.println("idade");
@@ -20,5 +21,6 @@ public class TiposPrimitivos {
         System.out.println("char "+caracter);
         System.out.println("char "+caracter1);
         System.out.println("char "+caracter2);
+        System.out.println("oi meu nome é "+nome);
     }
 }
