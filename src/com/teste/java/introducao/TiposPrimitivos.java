@@ -3,10 +3,10 @@ package com.teste.java.introducao;
 public class TiposPrimitivos {
     public static void main(String[] args) {
         // int, double, float, char, boolean, byte, byte, short
-        int idade = 10;
-        long numeroGrande = 1000000;
-        double salarioDouble = 2000;
-        float salarioFloat = 3000;
+        int idade = (int)1000000000000L;
+        long numeroGrande = 1000000L;
+        double salarioDouble = 2000.0D;
+        float salarioFloat = 3000.0F;
         char caracter = 'a';
         short idadeShort = 100;
         boolean ligado = true;
