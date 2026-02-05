@@ -24,5 +24,12 @@ public class Operadores {
         System.out.println(isDezIgualQueVinte);
         System.out.println(isDezDiferenteQueVinte);
 
+        //&& (AND) || (OR) !
+        int idade = 29;
+        float salario = 3500F;
+        boolean dentroDaLei1 = idade >= 30 && salario >= 4612;
+        boolean dentroDaLei2 = idade < 30 && salario >= 3381;
+        System.out.println("Lei 1 "+dentroDaLei1);
+        System.out.println("Lei 2 "+dentroDaLei2);
     }
 }
