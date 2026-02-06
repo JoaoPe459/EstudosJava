@@ -29,7 +29,17 @@ public class Operadores {
         float salario = 3500F;
         boolean dentroDaLei1 = idade >= 30 && salario >= 4612;
         boolean dentroDaLei2 = idade < 30 && salario >= 3381;
+
         System.out.println("Lei 1 "+dentroDaLei1);
         System.out.println("Lei 2 "+dentroDaLei2);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        double valorPlaystation = 5000;
+
+        boolean isPlayStation5Compravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlayStation5Compravel "+isPlayStation5Compravel);
+
+
     }
 }
