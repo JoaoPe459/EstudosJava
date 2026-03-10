@@ -2,7 +2,7 @@ package com.teste.java.introducao;
 
 public class Arrays01 {
     public static void main(String[] args) {
-        int[] idades = new int[3];
+        int[] idades = new int[3]; //arrays são objetos, por isso o uso do new.
         idades[0] = 21;
         idades[1] = 23;
         idades[2] = 24;
