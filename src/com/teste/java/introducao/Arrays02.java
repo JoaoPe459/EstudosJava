@@ -7,10 +7,15 @@ public class Arrays02 {
         //bolean false
         //String null
 
-        int[] nomes = new int[3];
-        System.out.println(nomes[0]);
-        System.out.println(nomes[1]);
-        System.out.println(nomes[2]);
+        String[] nomes = new String[4];
+        nomes[0] = "Lloyd";
+        nomes[1] = "Arthur";
+        nomes[2] = "Chung Myung";
+
+        for(int i = 0; i < nomes.length; i++){
+            System.out.println(nomes[i]);
+        }
+
 
     }
 }
