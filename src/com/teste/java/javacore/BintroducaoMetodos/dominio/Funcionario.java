@@ -1,9 +1,10 @@
 package com.teste.java.javacore.BintroducaoMetodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public int[] salario = new int[3];
+    private String nome;
+    private int idade;
+    private int[] salario = new int[3];
+    private int media = 0;
 
     public void imprimir() {
         System.out.println("Nome do funcionario: " + this.nome);
@@ -18,13 +19,40 @@ public class Funcionario {
     public void mediaSalarial() {
         if (salario == null)
             return;
-        int media = 0;
         for (int salario : salario) {
             media += salario;
         }
 
         media = media / salario.length;
         System.out.println("Media do funcionario: " + media);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int[] getSalario() {
+        return salario;
+    }
+
+    public void setSalario(int[] salario) {
+        this.salario = salario;
+    }
+
+    public int getMedia() {
+        return media;
     }
 
 }
